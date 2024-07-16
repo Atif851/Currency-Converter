@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:linear-gradient(60deg, pink, rgb(251, 251, 131));
+}
+.converter{
+    background-color:transparent;
+    border-radius: 3px;
+    backdrop-filter: blur(8px);
+    box-shadow: 3px 3px 8px rgb(6, 16, 15);
+    padding: 24px 30px;
+}
+h1{
+    text-decoration: underline;
+    font-size:39px;
+    color: rgb(64, 58, 58);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: 1.5px 1.5px red;
+
+}
+.converter .input_container{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius:4px ;
+    margin-block:20px ;
+
+}
+.converter .input_container input,
+.converter .input_container select{
+    width: 150px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding: 8px;
+    overflow: hidden;
+background-color:transparent;
+
+}
+.result{
+    font-size: 30px;
+    font-weight: 800; 
+    margin-top: 20px;
+}
+@media screen and(max-width:420px) {
+    .converter {
+        width: 80%;
+        margin: 0 auto;
+
+    }
+    .converter .input_container{
+        border: none;
+    }
+    .converter .input_container input,
+    .converter.input_container.result{
+        border: 1px solid powderblue;
+        margin-block:4px;
+        width: 100%;
+
+    }
+    
+}
+.result{
+    text-align: center;
+text-transform: uppercase;
+size: 20px;
+text-decoration: double;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-shadow: 1.5px 1.5px red;
+
+}
+img{
+    width: 60PX;
+    height: 60px;
+    border-radius: 50px;
+    box-shadow: 4px 4px rgb(206, 195, 195);
+    border: 1px solid black;
+    
+}
+h2{
+    font-size: 25px;
+    text-shadow: 1.5px 1.5px rgb(0, 200, 255);
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
